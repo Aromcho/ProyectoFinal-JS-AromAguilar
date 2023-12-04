@@ -20,7 +20,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">INICIO</a>
+                <a class="nav-link active-navbar" aria-current="page" href="#">INICIO</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -51,17 +51,17 @@
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">CLIENTES FELICES</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">NUESTRO CANAL</a>
+                <a class="nav-link" href="#">TIENDA</a>
               </li>
               
             </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Buscar</button>
-            </form>
+            <div class="carrito-container">
+              <button id="toggleCarrito"><i class="bi bi-cart"></i></button>
+              <div id="carrito" class="carrito">
+                <p>Carrito</p>
+                <!---- Aquí se mostrarán los productos del carrito --->
+              </div>
+            </div>
           </div>
         </div>
       </nav>
@@ -104,7 +104,6 @@
                   <h5 class="card-title">Duke 390</h5>
                   <p class="card-text año-km">2023 | 0km</p>
                   <p class="card-text precio"> U$S 9.900</p>
-                  <button class="btn btn-primary">agregar al carrito</button>
                 </div>
             </div>
             <div class="card">
@@ -119,7 +118,6 @@
                   <h5 class="card-title">Fz 150</h5>
                   <p class="card-text año-km">2023 | 0km</p>
                   <p class="card-text precio"> U$S 2.600</p>
-                  <button class="btn btn-primary">agregar al carrito</button>
                 </div>
 
             </div>
@@ -135,7 +133,6 @@
                   <h5 class="card-title">Ninja 400</h5>
                   <p class="card-text año-km">2023 | 0km</p>
                   <p class="card-text precio"> U$S 13.350</p>
-                  <button class="btn btn-primary">agregar al carrito</button>
                 </div>
             </div> 
         </div>
@@ -161,14 +158,13 @@
         </header>
         <nav>
           <ul class="e-menu">
-            <li><button class="e-marcas active">todo</button></li>
+            <li><button id="todas" class="e-marcas active">todas</button></li>
             <li><button id="kawasaki" class="e-marcas">Kawasaki</button></li>
             <li><button class="e-marcas">Honda</button></li>
             <li><button id="yamaha" class="e-marcas">Yamaha</button></li>
             <li><button id="ktm"class="e-marcas">KTM</button></li>
             <li><button class="e-marcas">Suzuki</button></li> 
             <li><button class="e-marcas">Gilera</button></li>
-            <li><a class="btn-carrito" href="./carrito.html"> <i class="bi bi-cart-fill"></i> carrito <span class="numerito">10</span></a></li>
           </ul>
         </nav>
         
