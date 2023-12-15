@@ -319,11 +319,12 @@ ul, li {
   right: 0;
   width: 30vw;  
   height: auto;
-  background: rgba(49, 49, 49, 0.562);  
+  background: rgba(49, 49, 49, 0.849);  
   backdrop-filter: blur(10px); 
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   padding: 10px;
   z-index: 1;
+  color: aliceblue;
 }
 
 #carrito.active {
@@ -336,6 +337,7 @@ ul, li {
 .cont-producto-carrito{
     margin-bottom: 1rem;
     display: flex;
+    justify-content: space-between;
     flex-direction: row;
     color: aliceblue;
     gap: 1rem;
@@ -356,4 +358,8 @@ ul, li {
     width: 30%;
     background-color: transparent;
     border: none;
+}
+.barra-inferior-carrito {
+    display: flex;
+    justify-content: space-between;
 }
