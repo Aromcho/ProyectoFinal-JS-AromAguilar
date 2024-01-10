@@ -36,6 +36,85 @@ const productosArray = [
       id: "ktm"
     },
     precio: 9900,
+  },{
+    id: "rc-390",
+    titulo: "RC 390",
+    ficha: `<div class="capa">
+      <div class="detalles"><h6>Cilindrada:</h6><p>373 cc</p></div>
+      <div class="detalles"><h6>Velocidad máxima:</h6><p>170 km/h</p></div>
+      <div class="detalles"><h6>Alimentación:</h6><p>Inyección</p></div>
+      <div class="detalles"><h6>Transmisión:</h6><p>6 velocidades</p></div>
+    </div>`,
+    imagen: "./img/rc-390.jpg",
+    categoria: {
+      nombre: "KTM",
+      id: "ktm"
+    },
+    precio: 10800,
+  },
+  {
+    id: "duke-200",
+    titulo: "Duke 200",
+    ficha: `<div class="capa">
+      <div class="detalles"><h6>Cilindrada:</h6><p>199.5 cc</p></div>
+      <div class="detalles"><h6>Velocidad máxima:</h6><p>135 km/h</p></div>
+      <div class="detalles"><h6>Alimentación:</h6><p>Inyección</p></div>
+      <div class="detalles"><h6>Transmisión:</h6><p>6 velocidades</p></div>
+    </div>`,
+    imagen: "./img/duke-200.webp",
+    categoria: {
+      nombre: "KTM",
+      id: "ktm"
+    },
+    precio: 7800,
+  },
+  {
+    id: "adventure-390",
+    titulo: "Adventure 390",
+    ficha: `<div class="capa">
+      <div class="detalles"><h6>Cilindrada:</h6><p>373 cc</p></div>
+      <div class="detalles"><h6>Velocidad máxima:</h6><p>160 km/h</p></div>
+      <div class="detalles"><h6>Alimentación:</h6><p>Inyección</p></div>
+      <div class="detalles"><h6>Transmisión:</h6><p>6 velocidades</p></div>
+    </div>`,
+    imagen: "./img/adventure-390.webp",
+    categoria: {
+      nombre: "KTM",
+      id: "ktm"
+    },
+    precio: 11500,
+  },
+  {
+    id: "rc-200",
+    titulo: "RC 200",
+    ficha: `<div class="capa">
+      <div class="detalles"><h6>Cilindrada:</h6><p>199.5 cc</p></div>
+      <div class="detalles"><h6>Velocidad máxima:</h6><p>140 km/h</p></div>
+      <div class="detalles"><h6>Alimentación:</h6><p>Inyección</p></div>
+      <div class="detalles"><h6>Transmisión:</h6><p>6 velocidades</p></div>
+    </div>`,
+    imagen: "./img/rc-200.jpg",
+    categoria: {
+      nombre: "KTM",
+      id: "ktm"
+    },
+    precio: 9200,
+  },
+  {
+    id: "duke-125",
+    titulo: "Duke 125",
+    ficha: `<div class="capa">
+      <div class="detalles"><h6>Cilindrada:</h6><p>124.7 cc</p></div>
+      <div class="detalles"><h6>Velocidad máxima:</h6><p>120 km/h</p></div>
+      <div class="detalles"><h6>Alimentación:</h6><p>Inyección</p></div>
+      <div class="detalles"><h6>Transmisión:</h6><p>6 velocidades</p></div>
+    </div>`,
+    imagen: "./img/duke-125.jpg",
+    categoria: {
+      nombre: "KTM",
+      id: "ktm"
+    },
+    precio: 5400,
   },
   {
     id: "fz-150",
@@ -54,6 +133,86 @@ const productosArray = [
     precio: 2600,
   },
   {
+    id: "yzf-r1",
+    titulo: "YZF-R1",
+    ficha: `<div class="capa">
+      <div class="detalles"><h6>Cilindrada:</h6><p>998 cc</p></div>
+      <div class="detalles"><h6>Velocidad máxima:</h6><p>299 km/h</p></div>
+      <div class="detalles"><h6>Alimentación:</h6><p>Inyección</p></div>
+      <div class="detalles"><h6>Transmisión:</h6><p>6 velocidades</p></div>
+    </div>`,
+    imagen: "./img/yzf-r1.webp",
+    categoria: {
+      nombre: "Yamaha",
+      id: "yamaha"
+    },
+    precio: 18000,
+  },
+  {
+    id: "mt-07",
+    titulo: "MT-07",
+    ficha: `<div class="capa">
+      <div class="detalles"><h6>Cilindrada:</h6><p>689 cc</p></div>
+      <div class="detalles"><h6>Velocidad máxima:</h6><p>210 km/h</p></div>
+      <div class="detalles"><h6>Alimentación:</h6><p>Inyección</p></div>
+      <div class="detalles"><h6>Transmisión:</h6><p>6 velocidades</p></div>
+    </div>`,
+    imagen: "./img/mt-07.jpg",
+    categoria: {
+      nombre: "Yamaha",
+      id: "yamaha"
+    },
+    precio: 8700,
+  },
+  {
+    id: "yzf-r6",
+    titulo: "YZF-R6",
+    ficha: `<div class="capa">
+      <div class="detalles"><h6>Cilindrada:</h6><p>599 cc</p></div>
+      <div class="detalles"><h6>Velocidad máxima:</h6><p>262 km/h</p></div>
+      <div class="detalles"><h6>Alimentación:</h6><p>Inyección</p></div>
+      <div class="detalles"><h6>Transmisión:</h6><p>6 velocidades</p></div>
+    </div>`,
+    imagen: "./img/yzf-r6.jpg",
+    categoria: {
+      nombre: "Yamaha",
+      id: "yamaha"
+    },
+    precio: 12500,
+  },
+  {
+    id: "tracer-900",
+    titulo: "Tracer 900",
+    ficha: `<div class="capa">
+      <div class="detalles"><h6>Cilindrada:</h6><p>847 cc</p></div>
+      <div class="detalles"><h6>Velocidad máxima:</h6><p>215 km/h</p></div>
+      <div class="detalles"><h6>Alimentación:</h6><p>Inyección</p></div>
+      <div class="detalles"><h6>Transmisión:</h6><p>6 velocidades</p></div>
+    </div>`,
+    imagen: "./img/tracer-900.jpg",
+    categoria: {
+      nombre: "Yamaha",
+      id: "yamaha"
+    },
+    precio: 14200,
+  },
+  {
+    id: "xt-660z-tenere",
+    titulo: "XT 660Z Ténéré",
+    ficha: `<div class="capa">
+      <div class="detalles"><h6>Cilindrada:</h6><p>660 cc</p></div>
+      <div class="detalles"><h6>Velocidad máxima:</h6><p>175 km/h</p></div>
+      <div class="detalles"><h6>Alimentación:</h6><p>Inyección</p></div>
+      <div class="detalles"><h6>Transmisión:</h6><p>5 velocidades</p></div>
+    </div>`,
+    imagen: "./img/xt-660z-tenere.jpg",
+    categoria: {
+      nombre: "Yamaha",
+      id: "yamaha"
+    },
+    precio: 12600,
+  },
+  {
     id: "ninja-400",
     ficha: `<div class="capa">
     <div class="detalles"><h6>Cilindrada:</h6><p>399 cc</p></div>
@@ -68,6 +227,85 @@ const productosArray = [
       id: "kawasaki"
     },
     precio: 13350
+  },{
+    id: "ninja-h2",
+    titulo: "Ninja H2",
+    ficha: `<div class="capa">
+      <div class="detalles"><h6>Cilindrada:</h6><p>998 cc</p></div>
+      <div class="detalles"><h6>Velocidad máxima:</h6><p>400 km/h</p></div>
+      <div class="detalles"><h6>Alimentación:</h6><p>Inyección</p></div>
+      <div class="detalles"><h6>Transmisión:</h6><p>6 velocidades</p></div>
+    </div>`,
+    imagen: "./img/ninja-h2.webp",
+    categoria: {
+      nombre: "Kawasaki",
+      id: "kawasaki"
+    },
+    precio: 33000,
+  },
+  {
+    id: "z650",
+    titulo: "Z650",
+    ficha: `<div class="capa">
+      <div class="detalles"><h6>Cilindrada:</h6><p>649 cc</p></div>
+      <div class="detalles"><h6>Velocidad máxima:</h6><p>210 km/h</p></div>
+      <div class="detalles"><h6>Alimentación:</h6><p>Inyección</p></div>
+      <div class="detalles"><h6>Transmisión:</h6><p>6 velocidades</p></div>
+    </div>`,
+    imagen: "./img/z650.webp",
+    categoria: {
+      nombre: "Kawasaki",
+      id: "kawasaki"
+    },
+    precio: 9200,
+  },
+  {
+    id: "versys-1000",
+    titulo: "Versys 1000",
+    ficha: `<div class="capa">
+      <div class="detalles"><h6>Cilindrada:</h6><p>1043 cc</p></div>
+      <div class="detalles"><h6>Velocidad máxima:</h6><p>240 km/h</p></div>
+      <div class="detalles"><h6>Alimentación:</h6><p>Inyección</p></div>
+      <div class="detalles"><h6>Transmisión:</h6><p>6 velocidades</p></div>
+    </div>`,
+    imagen: "./img/versys-1000.webp",
+    categoria: {
+      nombre: "Kawasaki",
+      id: "kawasaki"
+    },
+    precio: 14500,
+  },
+  {
+    id: "zx-6r",
+    titulo: "ZX-6R",
+    ficha: `<div class="capa">
+      <div class="detalles"><h6>Cilindrada:</h6><p>636 cc</p></div>
+      <div class="detalles"><h6>Velocidad máxima:</h6><p>260 km/h</p></div>
+      <div class="detalles"><h6>Alimentación:</h6><p>Inyección</p></div>
+      <div class="detalles"><h6>Transmisión:</h6><p>6 velocidades</p></div>
+    </div>`,
+    imagen: "./img/zx-6r.webp",
+    categoria: {
+      nombre: "Kawasaki",
+      id: "kawasaki"
+    },
+    precio: 12500,
+  },
+  {
+    id: "vulcan-s",
+    titulo: "Vulcan S",
+    ficha: `<div class="capa">
+      <div class="detalles"><h6>Cilindrada:</h6><p>649 cc</p></div>
+      <div class="detalles"><h6>Velocidad máxima:</h6><p>180 km/h</p></div>
+      <div class="detalles"><h6>Alimentación:</h6><p>Inyección</p></div>
+      <div class="detalles"><h6>Transmisión:</h6><p>6 velocidades</p></div>
+    </div>`,
+    imagen: "./img/vulcan-s.webp",
+    categoria: {
+      nombre: "Kawasaki",
+      id: "kawasaki"
+    },
+    precio: 8700,
   },
   {
     id: "gn-125",
@@ -85,6 +323,86 @@ const productosArray = [
     },
     precio: 1900
   },
+  {
+    id: "gsx-s750",
+    titulo: "GSX-S750",
+    ficha: `<div class="capa">
+      <div class="detalles"><h6>Cilindrada:</h6><p>749 cc</p></div>
+      <div class="detalles"><h6>Velocidad máxima:</h6><p>220 km/h</p></div>
+      <div class="detalles"><h6>Alimentación:</h6><p>Inyección</p></div>
+      <div class="detalles"><h6>Transmisión:</h6><p>6 velocidades</p></div>
+    </div>`,
+    imagen: "./img/gsx-s750.webp",
+    categoria: {
+      nombre: "Suzuki",
+      id: "suzuki"
+    },
+    precio: 10500,
+  },
+  {
+    id: "sv650",
+    titulo: "SV650",
+    ficha: `<div class="capa">
+      <div class="detalles"><h6>Cilindrada:</h6><p>645 cc</p></div>
+      <div class="detalles"><h6>Velocidad máxima:</h6><p>200 km/h</p></div>
+      <div class="detalles"><h6>Alimentación:</h6><p>Inyección</p></div>
+      <div class="detalles"><h6>Transmisión:</h6><p>6 velocidades</p></div>
+    </div>`,
+    imagen: "./img/sv650.webp",
+    categoria: {
+      nombre: "Suzuki",
+      id: "suzuki"
+    },
+    precio: 7800,
+  },
+  {
+    id: "hayabusa",
+    titulo: "Hayabusa",
+    ficha: `<div class="capa">
+      <div class="detalles"><h6>Cilindrada:</h6><p>1340 cc</p></div>
+      <div class="detalles"><h6>Velocidad máxima:</h6><p>312 km/h</p></div>
+      <div class="detalles"><h6>Alimentación:</h6><p>Inyección</p></div>
+      <div class="detalles"><h6>Transmisión:</h6><p>6 velocidades</p></div>
+    </div>`,
+    imagen: "./img/hayabusa.webp",
+    categoria: {
+      nombre: "Suzuki",
+      id: "suzuki"
+    },
+    precio: 18500,
+  },
+  {
+    id: "v-strom-650",
+    titulo: "V-Strom 650",
+    ficha: `<div class="capa">
+      <div class="detalles"><h6>Cilindrada:</h6><p>645 cc</p></div>
+      <div class="detalles"><h6>Velocidad máxima:</h6><p>200 km/h</p></div>
+      <div class="detalles"><h6>Alimentación:</h6><p>Inyección</p></div>
+      <div class="detalles"><h6>Transmisión:</h6><p>6 velocidades</p></div>
+    </div>`,
+    imagen: "./img/v-strom-650.webp",
+    categoria: {
+      nombre: "Suzuki",
+      id: "suzuki"
+    },
+    precio: 9200,
+  },
+  {
+    id: "gsx-r1000",
+    titulo: "GSX-R1000",
+    ficha: `<div class="capa">
+      <div class="detalles"><h6>Cilindrada:</h6><p>999 cc</p></div>
+      <div class="detalles"><h6>Velocidad máxima:</h6><p>299 km/h</p></div>
+      <div class="detalles"><h6>Alimentación:</h6><p>Inyección</p></div>
+      <div class="detalles"><h6>Transmisión:</h6><p>6 velocidades</p></div>
+    </div>`,
+    imagen: "./img/gsx-r1000.webp",
+    categoria: {
+      nombre: "Suzuki",
+      id: "suzuki"
+    },
+    precio: 16500,
+  },
   { 
     id: "NC750X",
     titulo: "NC750X",
@@ -100,6 +418,86 @@ const productosArray = [
       id: "honda"
     },
     precio: 15500
+  },
+  {
+    id: "cbr1000rr",
+    titulo: "CBR1000RR",
+    ficha: `<div class="capa">
+      <div class="detalles"><h6>Cilindrada:</h6><p>1000 cc</p></div>
+      <div class="detalles"><h6>Velocidad máxima:</h6><p>299 km/h</p></div>
+      <div class="detalles"><h6>Alimentación:</h6><p>Inyección</p></div>
+      <div class="detalles"><h6>Transmisión:</h6><p>6 velocidades</p></div>
+    </div>`,
+    imagen: "./img/cbr1000rr.webp",
+    categoria: {
+      nombre: "Honda",
+      id: "honda"
+    },
+    precio: 17200,
+  },
+  {
+    id: "cb500x",
+    titulo: "CB500X",
+    ficha: `<div class="capa">
+      <div class="detalles"><h6>Cilindrada:</h6><p>471 cc</p></div>
+      <div class="detalles"><h6>Velocidad máxima:</h6><p>190 km/h</p></div>
+      <div class="detalles"><h6>Alimentación:</h6><p>Inyección</p></div>
+      <div class="detalles"><h6>Transmisión:</h6><p>6 velocidades</p></div>
+    </div>`,
+    imagen: "./img/cb500x.webp",
+    categoria: {
+      nombre: "Honda",
+      id: "honda"
+    },
+    precio: 7200,
+  },
+  {
+    id: "goldwing",
+    titulo: "Goldwing",
+    ficha: `<div class="capa">
+      <div class="detalles"><h6>Cilindrada:</h6><p>1833 cc</p></div>
+      <div class="detalles"><h6>Velocidad máxima:</h6><p>180 km/h</p></div>
+      <div class="detalles"><h6>Alimentación:</h6><p>Inyección</p></div>
+      <div class="detalles"><h6>Transmisión:</h6><p>7 velocidades</p></div>
+    </div>`,
+    imagen: "./img/goldwing.webp",
+    categoria: {
+      nombre: "Honda",
+      id: "honda"
+    },
+    precio: 33000,
+  },
+  {
+    id: "cbr650r",
+    titulo: "CBR650R",
+    ficha: `<div class="capa">
+      <div class="detalles"><h6>Cilindrada:</h6><p>649 cc</p></div>
+      <div class="detalles"><h6>Velocidad máxima:</h6><p>220 km/h</p></div>
+      <div class="detalles"><h6>Alimentación:</h6><p>Inyección</p></div>
+      <div class="detalles"><h6>Transmisión:</h6><p>6 velocidades</p></div>
+    </div>`,
+    imagen: "./img/cbr650r.webp",
+    categoria: {
+      nombre: "Honda",
+      id: "honda"
+    },
+    precio: 9900,
+  },
+  {
+    id: "africatwin",
+    titulo: "Africa Twin",
+    ficha: `<div class="capa">
+      <div class="detalles"><h6>Cilindrada:</h6><p>1084 cc</p></div>
+      <div class="detalles"><h6>Velocidad máxima:</h6><p>212 km/h</p></div>
+      <div class="detalles"><h6>Alimentación:</h6><p>Inyección</p></div>
+      <div class="detalles"><h6>Transmisión:</h6><p>6 velocidades</p></div>
+    </div>`,
+    imagen: "./img/africatwin.webp",
+    categoria: {
+      nombre: "Honda",
+      id: "honda"
+    },
+    precio: 16800,
   },
   { 
     id: "SMX-200",
@@ -117,8 +515,90 @@ const productosArray = [
     },
     precio: 1680
   },
+  {
+    id: "smx-125",
+    titulo: "SMX 125",
+    ficha: `<div class="capa">
+      <div class="detalles"><h6>Cilindrada:</h6><p>125 cc</p></div>
+      <div class="detalles"><h6>Velocidad máxima:</h6><p>100 km/h</p></div>
+      <div class="detalles"><h6>Alimentación:</h6><p>Carburador</p></div>
+      <div class="detalles"><h6>Transmisión:</h6><p>5 velocidades</p></div>
+    </div>`,
+    imagen: "./img/smx-125.webp",
+    categoria: {
+      nombre: "Gilera",
+      id: "gilera"
+    },
+    precio: 2500,
+  },
+  {
+    id: "runner-50",
+    titulo: "Runner 50",
+    ficha: `<div class="capa">
+      <div class="detalles"><h6>Cilindrada:</h6><p>50 cc</p></div>
+      <div class="detalles"><h6>Velocidad máxima:</h6><p>45 km/h</p></div>
+      <div class="detalles"><h6>Alimentación:</h6><p>Carburador</p></div>
+      <div class="detalles"><h6>Transmisión:</h6><p>Automática</p></div>
+    </div>`,
+    imagen: "./img/runner-50.webp",
+    categoria: {
+      nombre: "Gilera",
+      id: "gilera"
+    },
+    precio: 1200,
+  },
+  {
+    id: "nexus-500",
+    titulo: "Nexus 500",
+    ficha: `<div class="capa">
+      <div class="detalles"><h6>Cilindrada:</h6><p>492 cc</p></div>
+      <div class="detalles"><h6>Velocidad máxima:</h6><p>160 km/h</p></div>
+      <div class="detalles"><h6>Alimentación:</h6><p>Inyección</p></div>
+      <div class="detalles"><h6>Transmisión:</h6><p>Automática</p></div>
+    </div>`,
+    imagen: "./img/nexus-500.webp",
+    categoria: {
+      nombre: "Gilera",
+      id: "gilera"
+    },
+    precio: 4800,
+  },
+  {
+    id: "stalker-50",
+    titulo: "Stalker 50",
+    ficha: `<div class="capa">
+      <div class="detalles"><h6>Cilindrada:</h6><p>49 cc</p></div>
+      <div class="detalles"><h6>Velocidad máxima:</h6><p>45 km/h</p></div>
+      <div class="detalles"><h6>Alimentación:</h6><p>Carburador</p></div>
+      <div class="detalles"><h6>Transmisión:</h6><p>Automática</p></div>
+    </div>`,
+    imagen: "./img/stalker-50.webp",
+    categoria: {
+      nombre: "Gilera",
+      id: "gilera"
+    },
+    precio: 1100,
+  },
+  {
+    id: "fuoco-500",
+    titulo: "Fuoco 500",
+    ficha: `<div class="capa">
+      <div class="detalles"><h6>Cilindrada:</h6><p>493 cc</p></div>
+      <div class="detalles"><h6>Velocidad máxima:</h6><p>160 km/h</p></div>
+      <div class="detalles"><h6>Alimentación:</h6><p>Inyección</p></div>
+      <div class="detalles"><h6>Transmisión:</h6><p>Automática</p></div>
+    </div>`,
+    imagen: "./img/fuoco-500.webp",
+    categoria: {
+      nombre: "Gilera",
+      id: "gilera"
+    },
+    precio: 7800,
+  },
 
 ];
+
+
 
 const contenedorProductos = document.querySelector("#contenedor-productos");
 const botonesMarca = document.querySelectorAll(".e-marcas");
@@ -246,21 +726,20 @@ toggleCarritoButton.addEventListener('click', () => {
 });
 
 contenedorProductos.addEventListener('click', (event) => {
-    if (event.target.tagName === 'BUTTON') {
-        const productoId = event.target.id;
-        agregarAlCarrito(productoId);
-        actualizarCarrito();
-        actualizarPreciosCarrito()
-        
-    }
+  if (event.target.tagName === 'BUTTON') {
+    const productoId = event.target.id;
+    agregarAlCarrito(productoId);
+    actualizarCarrito();
+    actualizarPreciosCarrito();
+  }
 });
 
 carrito.addEventListener('click', (event) => {
   if (event.target.classList.contains('papelera')) {
-      const productoIndex = event.target.closest('.cont-producto-carrito').dataset.index;
-      eliminarDelCarrito(productoIndex);
-      actualizarCarrito();
-      mostrarMensajeCarritoVacio();
+    const productoIndex = event.target.closest('.cont-producto-carrito').dataset.index;
+    eliminarDelCarrito(productoIndex);
+    actualizarCarrito();
+    mostrarMensajeCarritoVacio();
   }
 });
 
@@ -285,15 +764,22 @@ function mostrarPrecio(producto, precio = null) {
     precio = convertirPrecio(producto.precio);
   }
   let elemento = document.getElementById(producto.id);
-  elemento.textContent = precio.toLocaleString("es-AR", { style: "currency", currency: "ARS" });
-}
 
+
+
+  if (elemento) {
+    elemento.textContent = precio.toLocaleString("es-AR", { style: "currency", currency: "ARS" });
+  } else {
+    console.error("Elemento no encontrado para el producto:", producto);
+  }
+}
 
 function actualizarPrecios() {
   productosArray.forEach(producto => {
     mostrarPrecio(producto);
   });
 }
+
 function actualizarPreciosCarrito() {
   productosEnCarrito.forEach(producto => {
     producto.precio = convertirPrecio(producto.precio);
@@ -301,10 +787,7 @@ function actualizarPreciosCarrito() {
   actualizarCarrito();
 }
 
-
-setInterval(
-  actualizarPrecios
-, 5000);
+setInterval(actualizarPrecios, 5000);
 cargarProductosDesdeLocalStorage();
 actualizarCarrito();
 
